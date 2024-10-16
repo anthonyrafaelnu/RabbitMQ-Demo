@@ -20,3 +20,7 @@ Iniciar servidor:
 ```bash
 npm run server
 ```
+
+## Uso
+
+Abrir [localhost](http://localhost:3000) en puerto 3000 para utilizar la aplicación
