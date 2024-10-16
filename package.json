@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-server": "tsc -p tsconfig.server.json",
-    "start-server": "node dist/index.js",
-    "server": "npm run build-server && npm run start-server"
+    "start-server": "ts-node server/server.ts"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
